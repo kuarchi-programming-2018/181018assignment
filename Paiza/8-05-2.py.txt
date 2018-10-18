@@ -1,0 +1,17 @@
+class Gakusei:
+
+    def __init__(self, kokugo, sansu):
+
+        self.kokugo = kokugo
+
+        self.sansu  = sansu
+
+    
+    def sum(self):
+        
+        return int(self.kokugo+self.sansu)
+
+
+yamada = Gakusei(70, 43)
+
+print("‡Œv‚Í" + str(yamada.sum()) + "“_‚Å‚·")

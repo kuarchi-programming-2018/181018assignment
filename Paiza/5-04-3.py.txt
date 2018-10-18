@@ -1,0 +1,10 @@
+points = {"‘Œê" : 70, "Z”" : 35, "‰pŒê" : 52}
+
+sum = 0
+
+
+for i in points:
+    
+    sum=points[i]+sum
+
+print(int(sum))
